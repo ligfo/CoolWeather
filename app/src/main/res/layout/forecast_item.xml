@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:anroid="http://schemas.android.com/apk/res/android"
+    anroid:layout_width="match_parent"
+    anroid:layout_height="wrap_content"
+    anroid:layout_margin="15dp">
+
+    <TextView
+        anroid:layout_width="0dp"
+        anroid:layout_height="wrap_content"
+        anroid:layout_weight="2"
+        anroid:layout_gravity="center_vertical"
+        anroid:textColor="#fff"
+        anroid:id="@+id/date_text"/>
+
+    <TextView
+        anroid:layout_width="0dp"
+        anroid:layout_height="wrap_content"
+        anroid:id="@+id/info_text"
+        anroid:layout_gravity="center_vertical"
+        anroid:layout_weight="1"
+        anroid:gravity="center"
+        anroid:textColor="#fff"/>
+
+    <TextView
+        anroid:layout_width="0dp"
+        anroid:layout_height="wrap_content"
+        anroid:id="@+id/max_text"
+        anroid:layout_gravity="center"
+        anroid:layout_weight="1"
+        anroid:gravity="right"
+        anroid:textColor="#fff" />
+
+    <TextView
+        anroid:layout_width="0dp"
+        anroid:layout_height="wrap_content"
+        anroid:id="@+id/min_text"
+        anroid:layout_gravity="center"
+        anroid:gravity="right"
+        anroid:layout_weight="1"
+        anroid:textColor="#fff"/>
+</LinearLayout>
